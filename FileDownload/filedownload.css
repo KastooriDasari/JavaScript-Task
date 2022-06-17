@@ -1,0 +1,31 @@
+.card {
+  width: 200px;
+  height: 200px;
+  margin-left: 800px;
+  margin-top: 300px;
+}
+.card #img {
+  margin-top: 90px;
+  margin-left: 40px;
+  /* background-color:lightslategray; */
+  background-color: rgb(59, 62, 59);
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
+#img:hover {
+  background-color: burlywood;
+  transition: 0.7s;
+}
+.body-background {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-31-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e1ee6e84fa2c584170bab2733ea5a1b0);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  justify-content: center;
+
+  align-items: center;
+}
