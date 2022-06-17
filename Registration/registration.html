@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="registration.css" />
+    <title>registration</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="registration.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="#">
+        <h2>Registration</h2>
+        <div class="input-name">
+          <i class="fa fa-user lock"></i>
+          <input
+            type="text"
+            name=""
+            id="fname"
+            placeholder="enter your firstname"
+            class="text-name"
+            required
+          /><br />
+        </div>
+        <div class="input-name">
+          <i class="fa fa-user lock"></i>
+          <input
+            type="text"
+            name=""
+            id="lname"
+            placeholder="enter your lastname"
+            class="text-name"
+            required
+          />
+        </div>
+        <div class="input-name">
+          <i class="fa fa-envelope"></i>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="enter your email"
+            class="text-name"
+          />
+        </div>
+        <div class="input-name">
+          <i class="fa fa-eye"></i>
+          <input
+            type="password"
+            name=""
+            id="psw"
+            placeholder="enter your password"
+            class="text-name"
+            required
+          />
+        </div>
+        <div class="input-name">
+          <i class="fa fa-phone"></i>
+          <input
+            type="number"
+            name=""
+            id="psw"
+            placeholder="enter your mobile number"
+            class="text-name"
+            required
+          />
+        </div>
+        <div class="input-name">
+          <input type="radio" name="g" value="m" class="radio-button" />
+          <label for="html">Male</label>
+          <input type="radio" name="g" value="f" class="radio-button" />
+          <label for="html">Female</label>
+        </div>
+        <div class="input-name">
+          <select class="country">
+            <option>India</option>
+            <option>Nepal</option>
+            <option>Bhupal</option>
+            <option>Shri Lanka</option>
+            <option>Japan</option>
+          </select>
+        </div>
+        <div class="input-name">
+          <input type="checkbox" class="check-button" />
+          <label>I accept the terms and conditions</label>
+        </div>
+        <div class="input-name">
+          <button onclick="ValidateEmail()">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
