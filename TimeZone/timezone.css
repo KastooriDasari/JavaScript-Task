@@ -1,0 +1,24 @@
+
+.timezone {
+  text-align: center;
+  background-color:rgb(198, 198, 234);
+  font-size: 2.0rem;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  line-height: 30px;
+  padding: 10%;
+  height: 200px;
+  width: 300px;
+}
+
+body {
+    background-color: rgb(98, 98, 195);
+  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(https://i.pinimg.com/originals/83/07/e0/8307e097109774538a6e81025eb9b507.jpg); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
