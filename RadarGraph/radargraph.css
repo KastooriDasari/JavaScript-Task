@@ -1,0 +1,13 @@
+.graph-alignment {
+  background-color: rgb(105, 139, 202);
+}
+body {
+  margin: 0px;
+  background-color: rgb(227, 230, 239);
+  position: relative;
+  width: 500px;
+  height: 500px;
+  left: 650px;
+  right: 60px;
+  top: 300px;
+}
