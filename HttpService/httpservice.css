@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(173, 223, 225);
+}
+.content {
+  text-align: center;
+  padding: 30px;
+  margin: 0px auto;
+}
+.details {
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  border-radius: 5px;
+  box-shadow: black;
+}
+table,
+td {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+.card {
+  background-color: aliceblue;
+  width: 500px;
+  height: 500px;
+  margin-top: 200px;
+  margin-left: 650px;
+  box-sizing: border-box;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
